@@ -3,7 +3,7 @@ import {
   createSwitchNavigator,
 } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack'
-
+import { SplashScreen } from './views/SplashScreen'
 import { Login } from './views/Login/Login'
 import { Home } from './views/Home/Home'
 import { NewsDetail } from './views/News/NewsDetail'
@@ -55,7 +55,9 @@ const HomeNavigation = createStackNavigator({
 });
 
 const Navigation = createSwitchNavigator({
-  Home: HomeNavigation,
+    SplashScreen: SplashScreen,
+    Login: Login,
+    Home: HomeNavigation,
 })
 
 const App = createAppContainer(Navigation);
