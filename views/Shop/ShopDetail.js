@@ -76,7 +76,7 @@ export class ShopDetail extends React.Component {
                             style={{ height: 280, justifyContent: "flex-end", }}
                         >
                             <View style={{ height: 64, padding: 18, justifyContent: "center", backgroundColor: 'rgba(255, 255, 255, 0.3)', }}>
-                                <Text numberOfLines={1} style={[ styles.text_font, { fontSize: 20, color: '#010001', }]}>{this.state.shop.shop_name}</Text>
+                                <Text numberOfLines={1} style={[ styles.text_font, { fontSize: 20, color: '#000000', }]}>{this.state.shop.shop_name}</Text>
                             </View>
                         </ImageBackground>
                         {this.state.shop.shop_description != '' ? 
@@ -113,7 +113,7 @@ export class ShopDetail extends React.Component {
         }
 
         return (
-            <ScrollView style={{ backgroundColor: '#010001', }}>
+            <ScrollView style={{ backgroundColor: '#CD9B9B', }}>
                 <StatusBar hidden={true} />
                 {display_data}
             </ScrollView>

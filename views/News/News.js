@@ -88,7 +88,7 @@ export default class News extends React.Component {
                                 </TouchableOpacity>
                             </View>
                             <View style={{ flex: 1, flexDirection: 'column', paddingLeft: 10 }} >
-                                <Text style={[ styles.text_font, { fontSize: 18, color: '#ff9900', }]} numberOfLines={1}>{this.state.news[i].news_title}</Text>
+                                <Text style={[ styles.text_font, { fontSize: 18, color: '#CD5555', }]} numberOfLines={1}>{this.state.news[i].news_title}</Text>
                                 <Text style={[ styles.text_font, { fontSize: 12, color: 'gray', }]}>{this.state.news[i].news_date}</Text>
                                 <Text style={[ styles.text_font, { fontSize: 14, } ]} numberOfLines={4}>{this.state.news[i].news_description}</Text>
                             </View>
@@ -99,14 +99,14 @@ export default class News extends React.Component {
         }
 
         return (
-            <Content style={{ backgroundColor: '#010001', }}>
-                <Header style={{ backgroundColor: '#010001' }}>
+            <Content style={{ backgroundColor: '#CD9B9B', }}>
+                <Header style={{ backgroundColor: '#CD5C5C' }}>
                     <ImageBackground 
                         resizeMode='cover' 
                         source={require('../../images/bghead.png')} 
                         style={{ width: '100%', justifyContent: "center", alignItems: "center" }} 
                     >
-                        <Text style={{ fontFamily: 'Kanit-Regular', fontSize: 18, color: '#f3f3f3' }}>ข่าวสารและกิจกรรม</Text>
+                        <Text style={{ fontFamily: 'Kanit-Regular', fontSize: 18, color: '#ffffff' }}>ข่าวสารและกิจกรรม</Text>
                     </ImageBackground>
                 </Header>
                 <ScrollView>
