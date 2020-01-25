@@ -93,7 +93,7 @@ export class Login extends React.Component {
         }
 
         return (
-            <ScrollView style={{ backgroundColor: "#010001", }}>
+            <ScrollView style={{ backgroundColor: "#CD9B9B", }}>
                 <StatusBar hidden={true} />
                 <View style={{ padding: 36, }}>
                     <Image resizeMode="contain"
