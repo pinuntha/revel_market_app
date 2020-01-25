@@ -1,10 +1,11 @@
 import React from 'react';
 import { Login } from './views/Login/Login'
- 
-  const App = () => {
-    return(
-      <Login btn="Hello World"/>
-    );
-  };
-export default App;
+import { Home } from './views/Home/Home'
 
+const App = () => {
+  return (
+    <Home/>
+  );
+};
+
+export default App;
